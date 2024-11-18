@@ -40,7 +40,7 @@ static void InitializeKey(uint a, uint b, uint c, uint d) {
 static void Decrypt(byte* bytes, int length) {
     uint b = 0;
     uint i = 0;
-    uint len = length - 12;
+    uint len = length;
 
     for (; i < len && i < SECURELEN; i += 4) {
         byte* key = (byte*)&DECKEY[b++];
