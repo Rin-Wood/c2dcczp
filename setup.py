@@ -5,7 +5,7 @@ extension = Extension('c2dcczp', ['c2dcczp.c'])
 
 setup(
     name="c2dcczp",
-    version="1.0.1",
+    version="1.0.2",
     author='wood',
     author_email='miraclerinwood@gmail.com',
     url='https://github.com/Rin-Wood/c2dcczp',
