@@ -15,6 +15,7 @@ static void InitializeKey(uint a, uint b, uint c, uint d) {
     uint y, p, e;
     uint rounds = 6;
     uint sum = 0;
+    memset(DECKEY, 0, sizeof(DECKEY));
     uint z = DECKEY[ENCLEN - 1];
     KEY[0] = a;
     KEY[1] = b;
