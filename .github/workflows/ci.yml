@@ -1,6 +1,7 @@
 name: Build and upload to PyPI
 
-on: [push]
+on:
+  workflow_dispatch:
 
 jobs:
   build_wheels:
@@ -83,7 +84,7 @@ jobs:
     runs-on: ubuntu-20.04
     environment:
       name: pypi
-      url: https://pypi.org/project/cxxtea/
+      url: https://pypi.org/project/c2dcczp/
     permissions:
       id-token: write
     steps:
